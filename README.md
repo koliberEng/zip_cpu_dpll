@@ -1,3 +1,13 @@
+This repository is a fork from 
+Zip CPU located at https://github.com/ZipCPU/dpll
+The repository owner also as a website here: (http://zipcpu.com)
+
+My changes here in the code are minor and mainly to help me with the understanding
+of the PLL code. Comments and variable name may change and structure
+of io port may also change that is not inline with how the original
+code is written. This is mainly to help clear some of my confusion. 
+Please feel free to support ZipCPU.com there is some excellent work there. 
+
 I'd like to [post](http://zipcpu.com) about some simple and some basic
 [Phase Locked Loop](https://en.wikipedia.org/wiki/Phase-locked_loop) algorithms.
 To do this I'm going to need some demo code, which I'll keep in this repository.
