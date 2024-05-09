@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_adpll_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_adpll" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0 ps"></ZoomStartTime>
+      <ZoomEndTime time="28 ps"></ZoomEndTime>
+      <Cursor1Time time="0 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="597"></NameColumnWidth>
+      <ValueColumnWidth column_width="285"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="78" />
+   <wvobject fp_name="/tb_adpll/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/ref_clk" type="logic">
+      <obj_property name="ElementShortName">ref_clk</obj_property>
+      <obj_property name="ObjectShortName">ref_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/clk_out" type="logic">
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/SIM_TIME" type="other">
+      <obj_property name="ElementShortName">SIM_TIME</obj_property>
+      <obj_property name="ObjectShortName">SIM_TIME</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/TARGET_FREQ" type="other">
+      <obj_property name="ElementShortName">TARGET_FREQ</obj_property>
+      <obj_property name="ObjectShortName">TARGET_FREQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/TARGET_PERIOD" type="other">
+      <obj_property name="ElementShortName">TARGET_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">TARGET_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/REF_PERIOD" type="other">
+      <obj_property name="ElementShortName">REF_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">REF_PERIOD</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider359">
+      <obj_property name="label">dut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/i_rst" type="logic">
+      <obj_property name="ElementShortName">i_rst</obj_property>
+      <obj_property name="ObjectShortName">i_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/i_pps" type="logic">
+      <obj_property name="ElementShortName">i_pps</obj_property>
+      <obj_property name="ObjectShortName">i_pps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/o_pps" type="logic">
+      <obj_property name="ElementShortName">o_pps</obj_property>
+      <obj_property name="ObjectShortName">o_pps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/o_led" type="logic">
+      <obj_property name="ElementShortName">o_led</obj_property>
+      <obj_property name="ObjectShortName">o_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/o_tracking" type="logic">
+      <obj_property name="ElementShortName">o_tracking</obj_property>
+      <obj_property name="ObjectShortName">o_tracking</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/o_count" type="array">
+      <obj_property name="ElementShortName">o_count[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_count[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/o_step" type="array">
+      <obj_property name="ElementShortName">o_step[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_step[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/o_err" type="array">
+      <obj_property name="ElementShortName">o_err[63:0]</obj_property>
+      <obj_property name="ObjectShortName">o_err[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/o_locked" type="logic">
+      <obj_property name="ElementShortName">o_locked</obj_property>
+      <obj_property name="ObjectShortName">o_locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/o_dbg" type="array">
+      <obj_property name="ElementShortName">o_dbg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">o_dbg[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/pps_d" type="logic">
+      <obj_property name="ElementShortName">pps_d</obj_property>
+      <obj_property name="ObjectShortName">pps_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/ck_pps" type="logic">
+      <obj_property name="ElementShortName">ck_pps</obj_property>
+      <obj_property name="ObjectShortName">ck_pps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/lst_pps" type="logic">
+      <obj_property name="ElementShortName">lst_pps</obj_property>
+      <obj_property name="ObjectShortName">lst_pps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/tick" type="logic">
+      <obj_property name="ElementShortName">tick</obj_property>
+      <obj_property name="ObjectShortName">tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/new_config" type="logic">
+      <obj_property name="ElementShortName">new_config</obj_property>
+      <obj_property name="ObjectShortName">new_config</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/r_alpha" type="array">
+      <obj_property name="ElementShortName">r_alpha[5:0]</obj_property>
+      <obj_property name="ObjectShortName">r_alpha[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/r_beta" type="array">
+      <obj_property name="ElementShortName">r_beta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_beta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/r_gamma" type="array">
+      <obj_property name="ElementShortName">r_gamma[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_gamma[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/r_def_step" type="array">
+      <obj_property name="ElementShortName">r_def_step[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_def_step[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/pre_step" type="array">
+      <obj_property name="ElementShortName">pre_step[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pre_step[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/err_tick" type="logic">
+      <obj_property name="ElementShortName">err_tick</obj_property>
+      <obj_property name="ObjectShortName">err_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/shift_tick" type="logic">
+      <obj_property name="ElementShortName">shift_tick</obj_property>
+      <obj_property name="ObjectShortName">shift_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/mpy_aux" type="logic">
+      <obj_property name="ElementShortName">mpy_aux</obj_property>
+      <obj_property name="ObjectShortName">mpy_aux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/mpy_sync_two" type="logic">
+      <obj_property name="ElementShortName">mpy_sync_two</obj_property>
+      <obj_property name="ObjectShortName">mpy_sync_two</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/delay_step_clk" type="logic">
+      <obj_property name="ElementShortName">delay_step_clk</obj_property>
+      <obj_property name="ObjectShortName">delay_step_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/step_carry_tick" type="logic">
+      <obj_property name="ElementShortName">step_carry_tick</obj_property>
+      <obj_property name="ObjectShortName">step_carry_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/sub_tick" type="logic">
+      <obj_property name="ElementShortName">sub_tick</obj_property>
+      <obj_property name="ObjectShortName">sub_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/fltr_tick" type="logic">
+      <obj_property name="ElementShortName">fltr_tick</obj_property>
+      <obj_property name="ObjectShortName">fltr_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/config_filter_errors" type="logic">
+      <obj_property name="ElementShortName">config_filter_errors</obj_property>
+      <obj_property name="ObjectShortName">config_filter_errors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/pre_count_correction" type="array">
+      <obj_property name="ElementShortName">pre_count_correction[63:0]</obj_property>
+      <obj_property name="ObjectShortName">pre_count_correction[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/r_count_correction" type="array">
+      <obj_property name="ElementShortName">r_count_correction[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count_correction[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/r_filtered_err" type="array">
+      <obj_property name="ElementShortName">r_filtered_err[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r_filtered_err[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/count_correction" type="array">
+      <obj_property name="ElementShortName">count_correction[63:0]</obj_property>
+      <obj_property name="ObjectShortName">count_correction[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/step_correction" type="array">
+      <obj_property name="ElementShortName">step_correction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">step_correction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/delayed_step_correction" type="array">
+      <obj_property name="ElementShortName">delayed_step_correction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delayed_step_correction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/delayed_step" type="array">
+      <obj_property name="ElementShortName">delayed_step[31:0]</obj_property>
+      <obj_property name="ObjectShortName">delayed_step[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/mpy_input" type="array">
+      <obj_property name="ElementShortName">mpy_input[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mpy_input[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/w_mpy_out" type="array">
+      <obj_property name="ElementShortName">w_mpy_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">w_mpy_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/filter_sub_count" type="array">
+      <obj_property name="ElementShortName">filter_sub_count[63:0]</obj_property>
+      <obj_property name="ObjectShortName">filter_sub_count[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/filtered_err" type="array">
+      <obj_property name="ElementShortName">filtered_err[63:0]</obj_property>
+      <obj_property name="ObjectShortName">filtered_err[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/lost_ticks" type="array">
+      <obj_property name="ElementShortName">lost_ticks[7:0]</obj_property>
+      <obj_property name="ObjectShortName">lost_ticks[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/dly_config" type="logic">
+      <obj_property name="ElementShortName">dly_config</obj_property>
+      <obj_property name="ObjectShortName">dly_config</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/w_tick_enable" type="logic">
+      <obj_property name="ElementShortName">w_tick_enable</obj_property>
+      <obj_property name="ObjectShortName">w_tick_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/tick_enable_counter" type="array">
+      <obj_property name="ElementShortName">tick_enable_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tick_enable_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/tick_enable_carry" type="logic">
+      <obj_property name="ElementShortName">tick_enable_carry</obj_property>
+      <obj_property name="ObjectShortName">tick_enable_carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/cnt_carry" type="logic">
+      <obj_property name="ElementShortName">cnt_carry</obj_property>
+      <obj_property name="ObjectShortName">cnt_carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/p_count" type="array">
+      <obj_property name="ElementShortName">p_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/step_correction_plus_carry" type="array">
+      <obj_property name="ElementShortName">step_correction_plus_carry[32:0]</obj_property>
+      <obj_property name="ObjectShortName">step_correction_plus_carry[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/w_step_correct_unused" type="logic">
+      <obj_property name="ElementShortName">w_step_correct_unused</obj_property>
+      <obj_property name="ObjectShortName">w_step_correct_unused</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/new_step" type="array">
+      <obj_property name="ElementShortName">new_step[63:0]</obj_property>
+      <obj_property name="ObjectShortName">new_step[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/delayed_carry" type="logic">
+      <obj_property name="ElementShortName">delayed_carry</obj_property>
+      <obj_property name="ObjectShortName">delayed_carry</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/shift_hi" type="array">
+      <obj_property name="ElementShortName">shift_hi[63:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_hi[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/shift_lo" type="array">
+      <obj_property name="ElementShortName">shift_lo[63:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_lo[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/r_mpy_err" type="array">
+      <obj_property name="ElementShortName">r_mpy_err[63:0]</obj_property>
+      <obj_property name="ObjectShortName">r_mpy_err[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/no_pulse" type="logic">
+      <obj_property name="ElementShortName">no_pulse</obj_property>
+      <obj_property name="ObjectShortName">no_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/time_since_pps" type="array">
+      <obj_property name="ElementShortName">time_since_pps[32:0]</obj_property>
+      <obj_property name="ObjectShortName">time_since_pps[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/count_valid_ticks" type="array">
+      <obj_property name="ElementShortName">count_valid_ticks[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count_valid_ticks[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/mpy_sync" type="logic">
+      <obj_property name="ElementShortName">mpy_sync</obj_property>
+      <obj_property name="ObjectShortName">mpy_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/w_mpy_input" type="array">
+      <obj_property name="ElementShortName">w_mpy_input[63:0]</obj_property>
+      <obj_property name="ObjectShortName">w_mpy_input[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/w_mpy_err" type="array">
+      <obj_property name="ElementShortName">w_mpy_err[63:0]</obj_property>
+      <obj_property name="ObjectShortName">w_mpy_err[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/count_correction_strobe" type="logic">
+      <obj_property name="ElementShortName">count_correction_strobe</obj_property>
+      <obj_property name="ObjectShortName">count_correction_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/DEFAULT_STEP" type="array">
+      <obj_property name="ElementShortName">DEFAULT_STEP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEFAULT_STEP[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/RW" type="array">
+      <obj_property name="ElementShortName">RW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/DW" type="array">
+      <obj_property name="ElementShortName">DW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/ONE_SECOND" type="array">
+      <obj_property name="ElementShortName">ONE_SECOND[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ONE_SECOND[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/NPW" type="array">
+      <obj_property name="ElementShortName">NPW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NPW[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_adpll/dut/HRW" type="array">
+      <obj_property name="ElementShortName">HRW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HRW[31:0]</obj_property>
+   </wvobject>
+</wave_config>
